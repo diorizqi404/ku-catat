@@ -1,16 +1,40 @@
-# notes_dicoding
 
-A new Flutter project.
+# KuCatat
 
-## Getting Started
+Project aplikasi pencatatan android yang simpel. Dibuat menggunakan Flutter dan Firebase untuk menyimpan data. Aplikasi ini merupakan tugas submission Dicoding di kelas Belajar Membuat Aplikasi Flutter untuk Pemula. Aplikasi ini juga sudah responsif walau masih terdapat sedikit yang belum.
+## Screenshots
 
-This project is a starting point for a Flutter application.
+![App Screenshot](./preview.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Demo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+https://notes.dioo.my.id (old version)
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/diorizqi404/ku-catat
+```
+
+Go to the project directory
+
+```bash
+  cd notes-dicoding
+```
+
+Get Packages
+
+```bash
+  flutter pub get
+```
+
+Run the app
+
+```bash
+  flutter run
+  // In VSCode, u can use F5
+```
