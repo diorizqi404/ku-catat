@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "942937440721",
+    "project_id": "notes-dicoding-aa774",
+    "storage_bucket": "notes-dicoding-aa774.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942937440721:android:0936f6b252953e069d60f0",
+        "android_client_info": {
+          "package_name": "com.example.notes_dicoding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDskuwAovzgXtvmZXqQzogx7qC9NtB0bGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
