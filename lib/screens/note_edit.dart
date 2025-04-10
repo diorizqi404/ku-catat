@@ -5,7 +5,7 @@ import 'package:notes_dicoding/style/appstyle.dart';
 
 class NoteEditScreen extends StatefulWidget {
   final QueryDocumentSnapshot doc;
-  NoteEditScreen(this.doc);
+  const NoteEditScreen(this.doc, {super.key});
 
   @override
   State<NoteEditScreen> createState() => _NoteEditScreenState();
@@ -45,7 +45,7 @@ class _NoteEditScreenState extends State<NoteEditScreen> {
                 });
 
                 Navigator.push(context,
-                    MaterialPageRoute(builder: ((context) => HomeScreen())));
+                    MaterialPageRoute(builder: ((context) => const HomeScreen())));
               },
               icon: const Icon(
                 Icons.save_rounded,

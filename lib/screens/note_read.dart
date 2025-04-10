@@ -65,7 +65,7 @@ class NoteReadScreen extends StatelessWidget {
                               FirebaseFirestore.instance.collection("notes").doc(doc.id);
           
                               await documentReference.delete();
-                              Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+                              Navigator.push(context, MaterialPageRoute(builder: (context) => const HomeScreen()));
                             },
                             child: const Text('Hapus',
                               style: TextStyle(

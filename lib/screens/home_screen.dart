@@ -14,14 +14,14 @@ class HomeScreen extends StatelessWidget {
       body: LayoutBuilder(
         builder: (BuildContext context, BoxConstraints constrainst) {
           if (constrainst.maxWidth >= 1000) {
-            return NoteList(
+            return const NoteList(
               gridCount: 4,
               gridRatio: 1.0,
             );
           } else if (constrainst.maxWidth > 600) {
-            return NoteList(gridCount: 2, gridRatio: 1.0);
+            return const NoteList(gridCount: 2, gridRatio: 1.0);
           } else {
-            return NoteListMobile();
+            return const NoteListMobile();
           }
         },
       ),
