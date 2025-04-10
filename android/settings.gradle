@@ -10,6 +10,12 @@ pluginManagement {
 
     includeBuild("${settings.ext.flutterSdkPath}/packages/flutter_tools/gradle")
 
+    repositories {
+        google()           // ← ✅ Tambahkan baris ini
+        gradlePluginPortal()
+        mavenCentral()
+    }
+
     plugins {
         id "dev.flutter.flutter-gradle-plugin" version "1.0.0"
     }
